@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: "Suez One";
+    src: url("fonts/SuezOne-Regular.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Suez One";
+    color: #3b342f;
+    background-color: #fff1e5;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
