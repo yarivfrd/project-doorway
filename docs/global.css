@@ -8,13 +8,27 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
+    direction: rtl;
     font-family: "Suez One";
+    font-size: 2rem;
     color: #3b342f;
     background-color: #fff1e5;
     margin: 0;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 h1, h2, h3 {
+    margin: 0;
     font-weight: normal;
 }
