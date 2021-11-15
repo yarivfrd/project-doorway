@@ -5,11 +5,11 @@
     import Problem from './routes/Problem.svelte';
     import Solution from './routes/Solution.svelte';
 
-    export let url = '';
+    const isDevEnv = location.href.includes("localhost");
 </script>
 
 <main>
-    <Router url="{url}">
+    <Router basepath={isDevEnv ? "/" : "/project-doorway"}>
           <Route path="/" component={Home} />
 
           <Route let:params path="/:medium">
