@@ -8,9 +8,9 @@
 <main>
     <h1>פתרונות</h1>
     <div use:links class="option-container">
-        <a class="option" href={`/${params.medium}/${params.problem}/solution_a`}>פתרון א</a>
-        <a class="option" href={`/${params.medium}/${params.problem}/solution_b`}>פתרון ב</a>
-        <a class="option" href={`/${params.medium}/${params.problem}/solution_c`}>פתרון ג</a>
+        <a class="option" href={`${params.medium}/${params.problem}/solution_a`}>פתרון א</a>
+        <a class="option" href={`${params.medium}/${params.problem}/solution_b`}>פתרון ב</a>
+        <a class="option" href={`${params.medium}/${params.problem}/solution_c`}>פתרון ג</a>
     </div>
 </main>
 
